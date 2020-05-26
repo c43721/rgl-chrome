@@ -9,7 +9,7 @@
     ```js
     const apiKey = "" //Between these 2 quotes, paste in your API key.
     ```
-* Go to chrome's [extension page](https://chrome://extensions/) page.
+* Go to chrome's extension page page.
     * Click on "Load unpacked"
     * Choose this folder
 
