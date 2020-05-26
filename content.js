@@ -44,7 +44,7 @@ const makeSteamApiRequest = async () => {
 
 const makeSteamApiRequestPopup = async (link) => {
     if (!apiKey) return console.log("You should set your API key.")
-    if (!link.match("steamcommunity.com/id")) return
+    if (!link.match("steamcommunity.com/")) return
     if (link.match(/(765611\d+)/)) return getNameFromUrl(link)
     const linkToFetch = getApiLink(getNameFromUrl(link))
     const data = await fetch(linkToFetch)
