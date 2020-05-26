@@ -3,13 +3,13 @@
 
 # Usage
 * Download this repo to your desktop
-* Navigate to [here]("https://steamcommunity.com/dev/apikey") to obtain an API key.
+* Navigate to [here](https://steamcommunity.com/dev/apikey) to obtain an API key.
 * Open "content.js" in a text editor
     * Edit this line:
     ```js
     const apiKey = "" //Between these 2 quotes, paste in your API key.
     ```
-* Go to chrome's [extension]("chrome://extensions/") page.
+* Go to chrome's [extension](chrome://extensions/) page.
     * Click on "Load unpacked"
     * Choose this folder
 
