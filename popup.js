@@ -11,11 +11,11 @@ function getCurrentTabUrl(callback) {
     });
 }
 
-
 document.addEventListener('DOMContentLoaded', () => {
     getCurrentTabUrl(async (url) => {
         const append = document.getElementById("append")
         const id = await makeSteamApiRequestPopup(url)
+        if(id === undefined) return
         const elContainer = document.createElement("div");
         append.insertBefore(elContainer, append.firstElementChild);
 
