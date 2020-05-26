@@ -5,7 +5,7 @@ const getRglLink = (id) => {
 }
 
 const getApiLink = (id) => {
-    return `https://cors-anywhere.herokuapp.com/https://api.steampowered.com/ISteamUser/ResolveVanityURL/v0001?key=${apiKey}&vanityurl=${id}`
+    return `https://cors-anywhere.herokuapp.com/https://api.steampowered.com/ISteamUser/ResolveVanityURL/v0001?key=${encodeURIComponent(apiKey)}&vanityurl=${id}`
 }
 
 const appendUserDataToUI = (id) => {

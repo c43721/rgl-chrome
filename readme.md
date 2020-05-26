@@ -17,3 +17,6 @@
 * Automatically show status (Banned, verified, probation)
 * Show teams? Leadership status?
 * Styling to popup.html
+
+# Side notes
+I might add to chrome store eventually.
