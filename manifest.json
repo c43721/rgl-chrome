@@ -1,0 +1,28 @@
+{
+    "name": "RGL Profile Manager",
+    "short_name": "RPM",
+    "version": "0.0.1",
+    "description": "Gathers the target's RGL profile.",
+    "permissions": [
+        "storage",
+        "tabs"
+    ],
+    "browser_action": {
+        "icons": {
+            "128": "icon.png"
+        },
+        "default_icon": "icon.png",
+        "default_popup": "popup.html"
+    },
+    "content_scripts": [
+        {
+            "js": [
+                "content.js"
+            ],
+            "matches": [
+                "https://steamcommunity.com/id/*"
+            ]
+        }
+    ],
+    "manifest_version": 2
+}
